@@ -3,23 +3,23 @@ from datetime import date
 from datetime import timedelta
 
 #1
-# x = datetime.datetime.now()
-# print(x.day-5)
+x = datetime.datetime.now()
+print(x.day-5)
 
-#2
-# today = date.today()
+# 2
+today = date.today()
 
-# yesterday = today - timedelta(days = 1)
+yesterday = today - timedelta(days = 1)
 
-# tomorrow = today + timedelta(days = 1)
+tomorrow = today + timedelta(days = 1)
 
-# print(yesterday)
-# print(today)
-# print(tomorrow)
+print(yesterday)
+print(today)
+print(tomorrow)
 
-#3
-# x = datetime.datetime.now()
-# print(x.microsecond)
+# 3
+x = datetime.datetime.now()
+print(x.microsecond)
 
 #4
 current_date = datetime.datetime.now()
